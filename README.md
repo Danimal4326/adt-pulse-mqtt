@@ -1,14 +1,14 @@
 # adt-pulse-mqtt
 
-[![Home Assistant Add-on](https://img.shields.io/badge/home_assistant-add--on-blue.svg?logo=homeassistant&logoColor=white)](https://github.com/BigThunderSR/adt-pulse-mqtt)
+[![Home Assistant Add-on](https://img.shields.io/badge/home_assistant-add--on-blue.svg?logo=homeassistant&logoColor=white)](https://github.com/Danimal4326/adt-pulse-mqtt)
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armhf Architecture][armhf-shield]
 
-[![CodeQL](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/codeql.yml/badge.svg)](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/codeql.yml)
-[![Lint](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/lint.yaml/badge.svg)](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/lint.yaml)
-[![Node.js CI](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/node.js.yml/badge.svg)](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/node.js.yml)
-[![Builder](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/builder.yaml/badge.svg)](https://github.com/BigThunderSR/adt-pulse-mqtt/actions/workflows/builder.yaml)
+[![CodeQL](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/codeql.yml/badge.svg)](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/codeql.yml)
+[![Lint](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/lint.yaml/badge.svg)](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/lint.yaml)
+[![Node.js CI](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/node.js.yml/badge.svg)](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/node.js.yml)
+[![Builder](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/builder.yaml/badge.svg)](https://github.com/Danimal4326/adt-pulse-mqtt/actions/workflows/builder.yaml)
 
 ADT Pulse bridge for Home Assistant using MQTT.
 
@@ -34,9 +34,9 @@ See [LOCAL_TESTING.md](LOCAL_TESTING.md) for detailed instructions.
 
 ## Home Assistant Setup
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/BigThunderSR/adt-pulse-mqtt)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/Danimal4326/adt-pulse-mqtt)
 
-- First, add the repository (<https://github.com/BigThunderSR/adt-pulse-mqtt>) using the Add-on Store in the Home Assistant Supervisor. This is the easiest way to run this add-on, but it can also run as an independent container using Docker. In both cases, communication is through MQTT.
+- First, add the repository (<https://github.com/Danimal4326/adt-pulse-mqtt>) using the Add-on Store in the Home Assistant Supervisor. This is the easiest way to run this add-on, but it can also run as an independent container using Docker. In both cases, communication is through MQTT.
 - Install ADT Pulse MQTT from the store. Don't forget to configure `pulse_login` with your ADT Pulse Portal username and password. A separate login for Home Assistant is recommended.
 - Configure Add-on Options
 

@@ -1,6 +1,6 @@
 ---
 name: ADT Pulse MQTT - Danimal4326
-version: 5.2.0
+version: 5.3.0
 slug: adtpulsemqtt_bigthundersr
 description: ADT Pulse Bridge using MQTT
 url: https://github.com/Danimal4326/adt-pulse-mqtt
